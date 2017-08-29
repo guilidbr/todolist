@@ -13,6 +13,7 @@
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>s
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
@@ -23,7 +24,11 @@
         .fa-btn {
             margin-right: 6px;
         }
+        .column.over {
+          border: 2px dashed #000;
+        }
     </style>
+
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default">

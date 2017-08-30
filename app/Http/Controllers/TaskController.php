@@ -40,8 +40,12 @@ class TaskController extends Controller
      */
     public function index(Request $request)
     {
+        $tasks = Task::where('parent_id', 0)->with('allChildren')->get();
+        $tasks = Task::with('allChildren')->get();
+        //dd( $tasks);
+
         return view('tasks.index', [
-            'tasks' => $this->tasks->forUser($request->user()),
+            'tasks' => $tasks,
         ]);
     }
 

@@ -13,8 +13,18 @@
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>s
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+
+    {{-- <link href="{{ elixir('public/jquery-treegrid/css/jquery.treegrid.css') }}" rel="stylesheet"> --}}
+    {{-- <link href="{{ elixir('public/jquery-treegrid/') }}" rel="stylesheet"> --}}
+    {{-- <script href="{{ elixir('public/jquery-treegrid/js/jquery.treegrid.js') }}" rel="stylesheet"> </script>--}}
+
+    {{-- <script href="{{ elixir('public/jquery-treegrid/js/jquery.treegrid.bootstrap3.js') }}" rel="stylesheet"> </script>--}}
+
+
+
+
 
     <style>
         body {

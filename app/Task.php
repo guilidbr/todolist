@@ -30,4 +30,13 @@ class Task extends Model
     {
         return $this->belongsTo(User::class);
     }
+    public function children()
+    {
+        return $this->hasMany(Task::class, 'parent_id','id');
+    }
+
+    public function allChildren()
+    {
+        return $this->children()->with('allChildren');
+    }
 }
